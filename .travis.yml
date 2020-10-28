@@ -5,3 +5,7 @@ language: go
 
 go:
   - 1.11
+jobs: 
+ exclude:
+  go: 1.11
+  arch: ppc64le
